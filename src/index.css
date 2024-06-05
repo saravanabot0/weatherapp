@@ -1,0 +1,44 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.overall {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card {
+  width: 300px;
+  /* background-color: grey; */
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+.wrap {
+  width: 100%;
+  position: relative;
+}
+.wrap input {
+  width: 100%;
+  padding: 10px;
+}
+.wrap .icon {
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  font-size: 30px;
+}
+.box {
+  background-color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  padding:30px;
+  font-size: 18px;
+}
